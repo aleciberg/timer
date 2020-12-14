@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="timer">
+      <div class="controls">
+        <h3>Enter Your Timer</h3>
+        <input id="duration" value="3" />
+        <div id="buttons">
+          <button id="start"><i class="fas fa-play" style="color:white"></i></button>
+          <button id="pause"><i class="fas fa-pause" style="color:white"></i></button>
+        </div>
+      </div>
+      <div id="dial-wrapper">
+        <svg class="dial">
+          <circle
+            fill="transparent"
+            stroke="rgb(117, 35, 46)"
+            stroke-width="15"
+            r="190"
+            cx="0"
+            cy="200"
+            transform="rotate(-90 100 100)"
+          />
+        </svg>
+      </div>
+    </div>
+
+    <script src="timer.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
