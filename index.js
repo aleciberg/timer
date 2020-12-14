@@ -18,9 +18,6 @@ const timer = new Timer(durationInput, startButton, pauseButton, resetButton, {
         );
     }, 
     onComplete() {
-
+        alert('Done')
     },
-    onRestart() {
-        
-    }
 });
