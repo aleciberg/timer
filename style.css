@@ -23,13 +23,13 @@ body {
   margin: 0 auto;
   backdrop-filter: blur(3px);
   border-radius: 265px;
-/*👉  border: 2px solid pink;👈*/
+  /*👉  border: 2px solid pink;👈*/
 }
 
-h3{
-    color: white;
-    font-size: 20px;
-    padding-bottom: 20px;
+h3 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
 * {
